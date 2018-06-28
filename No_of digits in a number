@@ -1,0 +1,20 @@
+/*  Date:12 May 2018
+    Programmed by: Bhaskar Reddy Krishnamareddypalli
+    purpose:To count number of digits in a given number
+*/
+
+#include<stdio.h>
+int main()
+{
+	int number,count=0;
+	printf("Enter the Number\n");
+	scanf("%d",&number);
+	while(number>0)
+	{
+		number=number/10;
+			count++;
+
+	}
+	printf("%d",count);
+	return 0;
+}
